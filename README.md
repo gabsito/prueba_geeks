@@ -6,7 +6,7 @@ Este proyecto fue inicializado usando [Angular CLI](https://github.com/angular/a
 
 ## Como ver el proyecto en acción
 
-Puedes entrar [aquí](google.com) para ver la pagina directamente en acción o puedes clonar el repositorio y ver el codigo.
+Puedes entrar [aquí](https://coinbase-geeks.web.app/) para ver la pagina directamente en acción o puedes clonar el repositorio y ver el codigo.
 
 ## Cómo ver la pagina a partir del codigo
 
