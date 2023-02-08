@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+  padding-top: 25vh;
+}
+
+.line {
+  position: relative;
+}
+
+
+.input-mail {
+  width: 380px;
+  border: 1px solid #e5e5e5;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  padding: 15px 20px;
+  border: #920f9e 1px solid;
+}
+
+form {
+  display: flex;
+}

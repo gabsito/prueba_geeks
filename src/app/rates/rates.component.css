@@ -1,0 +1,128 @@
+.rates-table {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.rates-table :nth-child(1) {
+  grid-column: 1 / 2;
+}
+
+.rates-table :nth-child(2) {
+  grid-column: 2 / 3;
+}
+
+.rates-table :nth-child(3) {
+  grid-column: 2 / 3;
+}
+
+tr {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.exchanges {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.exchanges::-webkit-scrollbar {
+  width: 3px;
+}
+
+.exchanges::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.exchanges::-webkit-scrollbar-thumb {
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+
+.exchanges::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.exchange {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.table {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.25);
+}
+
+.responsive-table {
+  display: flex;
+  justify-content: center;
+}
+
+thead {
+  border-bottom: #e5e5e5 1px solid;
+}
+
+th {
+  border: none;
+  padding: 3vh;
+}
+
+td {
+  border: none;
+  height: 32vh;
+  width: 25vw;
+  padding-top: 5vh;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+  padding: 25vh;
+}
+
+.wave-top {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-top svg {
+  position: relative;
+  display: block;
+  width: calc(115% + 1.3px);
+  height: 175px;
+  transform: rotateY(180deg);
+}
+
+.wave-top .shape-fill {
+  fill: #FFFFFF;
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(108% + 1.3px);
+  height: 110px;
+  transform: rotateY(180deg);
+}
+
+.wave-bottom .shape-fill {
+  fill: #FFFFFF;
+}

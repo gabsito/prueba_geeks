@@ -1,0 +1,72 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 20vh;
+  padding-bottom: 6vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 10%;
+}
+
+/* children */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 500px;
+  height: 375px;
+  margin: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+  padding: 5vw;
+}
+
+.colorful-tittle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+}
+
+.content {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  padding: 1vh
+}
+
+.cards :nth-child(1) {
+  position: absolute;
+  z-index: 1;
+}
+
+.cards > :nth-child(2) {
+  height: 350px;
+  -webkit-text-fill-color: rgba(136, 136, 136, 1);
+}
+
+.cards > :nth-child(3) {
+  height: 350px;
+  -webkit-text-fill-color: rgba(136, 136, 136, 1);
+}
