@@ -1,0 +1,100 @@
+{
+  "rates": {
+    "BTC": {
+      "buy": 350,
+      "sell": 370
+    },
+    "ETH": {
+      "buy": 345,
+      "sell": 370
+    }
+  },
+  "reserves": [
+    {
+      "coin": "NGN",
+      "amount": 3452030300303.24
+    },
+    {
+      "coin": "BTC",
+      "amount": 399.98
+    },
+    {
+      "coin": "ETH",
+      "amount": 1000.00
+    }
+  ],
+  "exchanges": [
+    {
+      "from": {
+        "coin": "BTC",
+        "name": "Bitcoin",
+        "amount": 1.16
+      },
+      "to": {
+        "coin": "NGN",
+        "name": "Bank Transfer",
+        "amount": 696152299929.23
+      }
+    },
+    {
+      "from": {
+        "coin": "ETH",
+        "name": "Ethereum",
+        "amount": 1.16
+      },
+      "to": {
+        "coin": "NGN",
+        "name": "Bank Transfer",
+        "amount": 696152299929.23
+      }
+    },
+    {
+      "from": {
+        "coin": "NGN",
+        "name": "Bank Transfer",
+        "amount": 100000
+      },
+      "to": {
+        "coin": "BTC",
+        "name": "Bitcoin",
+        "amount": 0.0000234
+      }
+    },
+    {
+      "from": {
+        "coin": "NGN",
+        "name": "Bank Transfer",
+        "amount": 100000
+      },
+      "to": {
+        "coin": "ETH",
+        "name": "Ethereum",
+        "amount": 0.0000234
+      }
+    },
+    {
+      "from": {
+        "coin": "BTC",
+        "name": "Bitcoin",
+        "amount": 1.16
+      },
+      "to": {
+        "coin": "ETH",
+        "name": "Ethereum",
+        "amount": 0.0000234
+      }
+    },
+    {
+      "from": {
+        "coin": "ETH",
+        "name": "Ethereum",
+        "amount": 1.16
+      },
+      "to": {
+        "coin": "BTC",
+        "name": "Bitcoin",
+        "amount": 0.0000234
+      }
+    }
+  ]
+}

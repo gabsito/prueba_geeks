@@ -3,17 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TheHeaderComponent } from './the-header/the-header.component';
-import { HeroComponent } from './hero/hero.component';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { RatesComponent } from './rates/rates.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { TradeComponent } from './trade/trade.component';
-import { BlogComponent } from './blog/blog.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
-import { DownloadAppComponent } from './download-app/download-app.component';
-import { FooterComponent } from './footer/footer.component';
-import { NewsletterComponent } from './newsletter/newsletter.component';
+import { TheHeaderComponent } from './components/the-header/the-header.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
+import { RatesComponent } from './components/rates/rates.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { TradeComponent } from './components/trade/trade.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { DownloadAppComponent } from './components/download-app/download-app.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
